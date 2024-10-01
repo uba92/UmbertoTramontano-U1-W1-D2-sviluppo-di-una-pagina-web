@@ -138,8 +138,23 @@
         allowfullscreen
       ></iframe>
 
+      <p>
+        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
+        newsletter:
+      </p>
       <!-- form per iscriversi alla newsletter -->
-      <form onsubmit="alert('Form inviato con successo!')"></form>
+      <form onsubmit="alert('Form inviato con successo!')">
+        <div>
+          <label for="email-field">Inserisci al tua email: </label>
+          <input
+            id="email-field"
+            type="email"
+            placeholder="mariorossi@xxxxx.it"
+            required
+          />
+        </div>
+        <div><input type="submit" value="ISCRIVITI!" /></div>
+      </form>
     </main>
     <footer></footer>
   </body>
