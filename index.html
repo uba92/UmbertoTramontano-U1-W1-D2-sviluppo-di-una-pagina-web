@@ -9,7 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
 
-    <style></style>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+
+      th,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <!-- intestazione pagina -->
@@ -73,6 +84,43 @@
         L'applicazione di stili CSS è crsciuta negli anni fino a raggiungere la
         diffusione pressoché totale.
       </p>
+
+      <!-- inserimento di una table -->
+      <table>
+        <caption>
+          <strong>Diffusione dei CSS</strong>
+        </caption>
+        <tr>
+          <th>Anno</th>
+          <th>% di utilizzo</th>
+          <th>Supporto Browsers</th>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>20%</td>
+          <td>17%</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>35%</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <td>45%</td>
+          <td>42%</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>80%</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>100%</td>
+          <td>76%</td>
+        </tr>
+      </table>
     </main>
     <footer></footer>
   </body>
